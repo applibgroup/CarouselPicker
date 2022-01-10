@@ -1,0 +1,49 @@
+{
+  "app": {
+    "bundleName": "com.example.carouselpicker_harmonyos",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.carouselpicker_harmonyos",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.carouselpicker_harmonyos.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.carouselpicker_harmonyos.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

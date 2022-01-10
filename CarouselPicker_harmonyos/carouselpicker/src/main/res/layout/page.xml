@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:ohos="http://schemas.huawei.com/apk/res/ohos"
+    ohos:layout_width="wrap_content"
+    ohos:layout_height="wrap_content"
+    ohos:layout_gravity="center"
+    ohos:gravity="center"
+    ohos:orientation="vertical">
+
+    <ImageView
+        ohos:id="@+id/iv"
+        ohos:layout_width="wrap_content"
+        ohos:layout_height="wrap_content" />
+    <TextView
+        ohos:id="@+id/tv"
+        ohos:layout_width="wrap_content"
+        ohos:layout_height="wrap_content" />
+
+</LinearLayout>
