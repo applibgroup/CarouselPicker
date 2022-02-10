@@ -1,23 +1,9 @@
 package in.goodiebag.carouselpicker;
 
-import ohos.content.Context;
-import ohos.content.res.TypedArray;
-import ohos.graphics.Typeface;
-import ohos.text.TextUtils;
-import ohos.util.AttributeSet;
-import ohos.util.DisplayMetrics;
-import ohos.util.TypedValue;
-import ohos.view.LayoutInflater;
-import ohos.view.MotionEvent;
-import ohos.view.View;
-import ohos.view.ViewGroup;
-import ohos.widget.ImageView;
-import ohos.widget.TextView;
+import ohos.agp.components.Component;
+import ohos.agp.components.Text;
+import com.example.carouselpicker_harmonyos.ResourceTable;
 
-import ohos.annotation.ColorInt;
-import ohos.annotation.DrawableRes;
-import ohos.viewpager.widget.PagerAdapter;
-import ohos.viewpager.widget.ViewPager;
 
 import java.util.List;
 

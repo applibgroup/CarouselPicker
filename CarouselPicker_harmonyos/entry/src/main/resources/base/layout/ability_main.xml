@@ -9,7 +9,7 @@
                 tools:context="in.goodiebag.example.MainActivity">
 
     <Image
-        ohos:id="@+id/imageCarousel"
+        ohos:id="$+id:imageCarousel"
         ohos:layout_marginTop="20dp"
         ohos:layout_marginBottom="20dp"
         ohos:layout_width="match_parent"
@@ -21,7 +21,7 @@
         ohos:width="match_parent"/>
 
     <TextField
-        ohos:id="@+id/textCarousel"
+        ohos:id="$+id:textCarousel"
         ohos:height="match_parent"
         ohos:width="match_parent"
         ohos:background="#CCC"
@@ -35,7 +35,7 @@
         app:unselected_item_opacity="0.5"/>
 
     <Text
-        ohos:id="@+id/mixCarousel"
+        ohos:id="$+id:mixCarousel"
         ohos:layout_below="@id/textCarousel"
         ohos:layout_marginBottom="20dp"
         ohos:layout_width="match_parent"
@@ -46,8 +46,9 @@
         ohos:width="match_parent"/>
 
     <TextView
-        ohos:id="@+id/tvSelectedItem"
+        ohos:id="$+id:tvSelectedItem"
         ohos:layout_below="@id/mixCarousel"
         ohos:layout_width="match_parent"
         ohos:layout_height="wrap_content" />
+
 </RelativeLayout>

@@ -1,7 +1,7 @@
 package in.goodiebag.carouselpicker;
 
-import ohos.content.Context;
 import ohos.view.View;
+import ohos.app.Context;
 
 import ohos.viewpager.widget.ViewPager;
 
