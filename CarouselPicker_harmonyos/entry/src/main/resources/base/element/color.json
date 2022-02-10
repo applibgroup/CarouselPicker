@@ -1,0 +1,35 @@
+{
+  "color": [
+
+    {
+      "name": "TextColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "infoColor",
+      "value": "#3F51B5"
+    },
+    {
+      "name": "normalColor",
+      "value": "#353A3E"
+    },
+    {
+      "name": "colorPrimary",
+      "value": "#3F51B5"
+    },
+    {
+      "name": "colorPrimaryDark",
+      "value": "#303F9F"
+    },
+
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "holo_green_light",
+      "value": "#ff99cc00"
+    }
+  ]
+
+}

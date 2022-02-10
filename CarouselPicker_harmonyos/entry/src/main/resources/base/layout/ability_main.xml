@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                xmlns:app="http://schemas.huawei.com/apk/res-auto"
+                xmlns:tools="http://schemas.huawei.com/tools"
+                ohos:layout_width="match_parent"
+                ohos:layout_height="match_parent"
+                ohos:orientation="vertical"
+                ohos:gravity="center"
+                tools:context="in.goodiebag.example.MainActivity">
+
+    <Image
+        ohos:id="$+id:imageCarousel"
+        ohos:layout_marginTop="20dp"
+        ohos:layout_marginBottom="20dp"
+        ohos:layout_width="match_parent"
+        ohos:layout_height="wrap_content"
+        ohos:background="#CCC"
+        app:items_visible="three"
+        app:unselected_item_opacity="0.5"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+    <TextField
+        ohos:id="$+id:textCarousel"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background="#CCC"
+        ohos:layout_below="@id/imageCarousel"
+        ohos:layout_height="wrap_content"
+        ohos:layout_marginBottom="20dp"
+        ohos:layout_width="match_parent"
+        app:items_visible="three"
+        app:orientation="vertical"
+        app:text_max_lines="1"
+        app:unselected_item_opacity="0.5"/>
+
+    <Text
+        ohos:id="$+id:mixCarousel"
+        ohos:layout_below="@id/textCarousel"
+        ohos:layout_marginBottom="20dp"
+        ohos:layout_width="match_parent"
+        ohos:layout_height="wrap_content"
+        ohos:background="#CCC"
+        app:items_visible="three"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+    <TextView
+        ohos:id="$+id:tvSelectedItem"
+        ohos:layout_below="@id/mixCarousel"
+        ohos:layout_width="match_parent"
+        ohos:layout_height="wrap_content" />
+
+</RelativeLayout>
